@@ -1,0 +1,444 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.m_div{
+    width: 100%;
+    height: 280vh;
+    background-image: linear-gradient(to right,rgb(209, 177, 212),rgb(176, 188, 207));
+    
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    /* background-color: white; */
+    background-image: linear-gradient(to right,rgb(119, 119, 152),rgb(217, 183, 119),rgb(95, 95, 173));
+    position: relative;
+}
+.head img{
+    position: absolute;
+     left: 32px;
+     
+}
+.head h1{
+    margin-top: 30px;
+    position: absolute;
+    left: 30px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-style: italic;
+}
+.nav ul{
+    display: flex;
+    float: right;
+    
+}
+.nav ul li{
+    padding: 20px;
+    top: -10px;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-left: 20px;
+}
+.nav ul li:hover{
+    color: orangered;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px black;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    margin-top:  5px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 10px black;
+}
+.btn:hover{
+    background-color:orange;
+    color: black;
+}
+.content{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    width: 300px;
+    height: 200px;
+
+}
+.content h1{
+    font-size: 50px;
+}
+.h1{
+    color: orangered;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.shop_now
+{
+    position: absolute;
+    left: 50px;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 140px;
+    height: 45px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    outline: none;  
+    font-size: 20px; 
+    box-shadow: 0px 0px 10px black;
+}
+.shop_now:hover{
+    background-color: orange;
+    color: black;
+}
+.img{
+    position: absolute;
+    left: 500px;
+    top: 120px;
+    width: 500px;
+    height: 350px;
+    background-image: url('https://wallpapercave.com/wp/wp12436919.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    width: 300px;
+    height: 350px;
+    background-image: url('https://img.freepik.com/free-photo/fashion-photo-graceful-brunette-woman-spring-outfit-posing-holding-white-bag_273443-4124.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.image{
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    width: 1200px;
+    height: 600px;
+    background-image: linear-gradient(to right,rgb(220, 187, 193),rgb(183, 151, 157));
+    border-radius: 10px;
+}
+.img2:hover{
+    border-radius: 20px;
+    transform: scale(0.9);
+}
+.img:hover{
+    border-radius: 20px;
+    transform: scale(0.9);
+}
+.logo{
+    position: static;
+    margin-top: 650px;
+    width: 100%;
+    height: 70px;
+    background-color:orange;
+
+}
+.logo img{
+    position: absolute;
+    left: 450px;
+   
+}
+ .logo .amazon{
+    position: absolute;
+    left: 600px;
+    margin-top: 10px;
+}
+.logo .obey{
+    position: absolute;
+    left: 750px;
+    margin-top: 10px; 
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+.logo .hm{
+    position: absolute;
+    left: 950px;
+    margin-top: 10px; 
+}
+.new{
+    position: absolute;
+    left: 200px;
+    margin-top: 30px;
+    width: 1200px;
+    height: 650px;
+    background-color: rgb(194, 143, 143);
+    display: flex;
+    border-radius: 10px;
+    
+}
+.d1{
+    width: 300px;
+    height: 400px;
+    
+    margin-left: 80px;
+    margin-top: 60px;
+    background-image: url('https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/original/8907880601216/CKs_LT6TWM-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.hoodies{
+    width: 300px;
+    background-color: rgb(194, 143, 143);
+    height: 40px; 
+    margin-top: 420px;
+    font-size: 25px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+  
+  
+    
+}
+.d2{
+    width: 300px;
+    height: 400px;
+    
+    margin-left: 80px;
+    margin-top: 60px;
+    background-image: url('https://static.hopscotch.in/fstatic/product/202306/9b9e3319-d036-43b5-87b4-97f6431e529c_large.jpg?version=1686546658011&tr=w-480,c-at_max,n-normal');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.kids{
+    width: 300px;
+    background-color: rgb(194, 143, 143);
+    height: 40px; 
+    margin-top: 420px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    
+    
+   
+}
+.d3{
+    width: 300px;
+    height: 400px;
+   
+    margin-left: 80px;
+    margin-top: 60px;
+    background-image: url('https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?cs=srgb&dl=pexels-jhong-pascua-3018845.jpg&fm=jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.beauty{
+    width: 300px;
+    background-color: rgb(194, 143, 143);
+    height: 40px; 
+    margin-top: 420px;
+    text-align: center;
+    font-size: 25px;
+
+    font-weight: bolder;
+    
+}
+p{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.d1:hover{
+    transform: scale(0.9);
+}
+.d2:hover{
+    transform: scale(0.9);
+}
+.d3:hover{
+    transform: scale(0.9);
+}
+
+ .d4{
+    width: 200px;
+    height: 250px;
+    background-color: pink;
+    margin-left: 80px;
+    margin-top: 60px;
+    background-image: url('https://rukminim2.flixcart.com/image/450/500/xif0q/shoe/b/7/c/-original-imags8us66gnbbcx.jpeg?q=90&crop=false');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+ }
+ .main_div{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    
+    display: flex;
+ }
+ 
+
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .heartbeat {
+	-webkit-animation: heartbeat 0.9s ease-in-out infinite both;
+	        animation: heartbeat 0.9s ease-in-out infinite both;
+}
+@-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  /* .text-focus-in {
+	-webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530)infinite both;
+	        animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+}
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }*/
+  .mar1{
+    margin-left: 50px;
+  }
+  .mar2{
+    margin-left: 50px;
+  }
+  .mar3{
+    margin-left: 50px;
+  }
+    
+  
+
+  
+
+  
